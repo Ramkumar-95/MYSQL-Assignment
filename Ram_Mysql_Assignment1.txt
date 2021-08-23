@@ -1,0 +1,5 @@
+1. Select count(*) from SalesPeople where Sname like 'a%' or Sname like 'A%';
+2. Select Sname from SalesPeople s join Orders o on s.Snum=o.Snum where o.Amt > 2000;
+3. Select count(*) from SalesPeople where City='NewYork';
+4. Select Sname from SalesPeople where City='London' or city='Paris';
+5. select Sname, Odate from Orders group by Sname,Odate; 
